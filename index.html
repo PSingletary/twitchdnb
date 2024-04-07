@@ -107,10 +107,75 @@
 						<div class="inner">
 							<h2>DnB Streamers</h2>
 							<p>Primarily sourced from <a href="https://www.dogsonacid.com/threads/twitch-drum-and-bass-streamers.814605/">dogsonacid.com</a></p>
+<!--
+						<script type="text/javascript">
+							var options = {
+							channel: "p5ingletary", // TODO: Change this to the streams username you want to embed
+							width: 640,
+							height: 360,
+							};
+							var player = new Twitch.Player("twitch", options);
+
+							player.addEventListener(Twitch.Player.READY, initiate)
+
+							function initiate() {
+							player.addEventListener(Twitch.Player.ONLINE, handleOnline);
+							player.addEventListener(Twitch.Player.OFFLINE, handleOffline);
+							player.removeEventListener(Twitch.Player.READY, initiate);
+							}
+
+							function handleOnline() {
+							document.getElementById("twitch").classList.remove('hide');
+							player.removeEventListener(Twitch.Player.ONLINE, handleOnline);
+							player.addEventListener(Twitch.Player.OFFLINE, handleOffline);
+							player.setMuted(false);
+							}
+
+							function handleOffline() {
+							document.getElementById("twitch").classList.add('hide');
+							player.removeEventListener(Twitch.Player.OFFLINE, handleOffline);
+							player.addEventListener(Twitch.Player.ONLINE, handleOnline);
+							player.setMuted(true);
+							}
+						</script>
+-->
 							<div class="features">
-							<div class="content">
-								<script type="text/javascript">
+								<div class="content">
+									<section><span class="icon brands fa-twitch"></span>
+										<p><a href="https://twitch.tv/916junglist">916junglist</a></p>
+										<script type="text/javascript">
+										channel: "p916junglist", 
+										width: 640,
+										height: 360,
+										};
+										var player = new Twitch.Player("twitch", options);
+			
+										player.addEventListener(Twitch.Player.READY, initiate)
+			
+										function initiate() {
+										player.addEventListener(Twitch.Player.ONLINE, handleOnline);
+										player.addEventListener(Twitch.Player.OFFLINE, handleOffline);
+										player.removeEventListener(Twitch.Player.READY, initiate);
+										}
+			
+										function handleOnline() {
+										document.getElementById("twitch").classList.remove('hide');
+										player.removeEventListener(Twitch.Player.ONLINE, handleOnline);
+										player.addEventListener(Twitch.Player.OFFLINE, handleOffline);
+										player.setMuted(false);
+										}
+			
+										function handleOffline() {
+										document.getElementById("twitch").classList.add('hide');
+										player.removeEventListener(Twitch.Player.OFFLINE, handleOffline);
+										player.addEventListener(Twitch.Player.ONLINE, handleOnline);
+										player.setMuted(true);
+										}
+									</script>
+								</section>
+								<script>
 									var twitchUsers = ["acidspacecat", "alibidnb", "beckysaif", "bradyxk", "djprayz", "djrushmg", "docscott31", "el_clanko", "elhornet", "ethan_dubb", "etownjunglists", "folddnb", "fromtheannex", "futureclassdnb", "futurist_dnb", "gilferreira_dj", "goldenchildnyc", "grafixmusicUK", "guddah", "helmahof", "iamdistinctdnb", "jacob_welsh", "jekalez", "johnbbeta", "juicedrumandbass", "justsamdj", "kabiyo", "kaya_dj", "kjsawka", "konklave", "kt_dj", "larryplus", "lowkeydrums", "lsideBR", "maxmagee", "metapattern", "mh3dnb", "mikeairstrike", "missjackalope", "miss_octopus_dnb", "mojaxxDJ", "mr_miasma_", "mrfnrayner", "mystery2k", "ncseventeen", "noxbu", "pacificdnb", "pagan_dnb", "peeceeuk", "properchicagodnb", "psidreamDNB"];
+
 									for (var i = 0; i < twitchUsers.length; i++) {
 										document.write(`
 											<section><span class="icon brands fa-twitch"></span>
@@ -118,34 +183,307 @@
 											</section>
 										`);
 									}
-									channel: ${twitchUsers[i]},
-									width: 640,
-									height: 360,
-									};
-									var player = new Twitch.Player("twitch", options);
-		
-									player.addEventListener(Twitch.Player.READY, initiate)
-		
-									function initiate() {
-									player.addEventListener(Twitch.Player.ONLINE, handleOnline);
-									player.addEventListener(Twitch.Player.OFFLINE, handleOffline);
-									player.removeEventListener(Twitch.Player.READY, initiate);
-									}
-		
-									function handleOnline() {
-									document.getElementById("twitch").classList.remove('hide');
-									player.removeEventListener(Twitch.Player.ONLINE, handleOnline);
-									player.addEventListener(Twitch.Player.OFFLINE, handleOffline);
-									player.setMuted(false);
-									}
-		
-									function handleOffline() {
-									document.getElementById("twitch").classList.add('hide');
-									player.removeEventListener(Twitch.Player.OFFLINE, handleOffline);
-									player.addEventListener(Twitch.Player.ONLINE, handleOnline);
-									player.setMuted(true);
-									}
 								</script>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/alibidnb">alibidnb</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/alittlesoundUK">alittlesoundUK</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/andrewfetch">andrewfetch</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/andy_gravity">andy_gravity</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/bashatracks">bashatracks</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/bass_fanatik">bass_fanatik</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/basscolony808">basscolony808</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/beatspacifikguru">beatspacifikguru</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/beckysaif">beckysaif</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/beersandbeatsPDX">beersandbeatsPDX</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/bellawhitey">bellawhitey</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/bgdnb">bgdnb</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/bombtraxx">bombtraxx</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/bradyxk">bradyxk</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/burner71">burner71</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/catch22">catch22</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/char_dj">char_dj</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/churchofdrumandbass">churchofdrumandbass</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/CNVX_london">CNVX_london</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/crackindomes">cryptoshell</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/cryptoshell">cryptoshell</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/culprate">culprate</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/dannywav">dannywav</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/darthlikwid">darthlikwid</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/dcyfer">dcyfer</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/deejaymarky">deejaymarky</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/deejayspaed">deejayspaed</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/dj_Mk1">dj_Mk1</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/DJ_MrFLex">DJ_MrFLex</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/djbrisk">djbrisk</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/djdomzuk">djdomzuk</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/djghaleon">djghaleon</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/djghostrunner">djghostrunner</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/djmoases">djmoases</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/djprayz">djprayz</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/djrushmg">djrushmg</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/docscott31">docscott31</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/el_clanko">el_clanko</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/elhornet">elhornet</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/ethan_dubb">ethan_dubb</a></p>
+								</section>				
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/etownjunglists">etownjunglists</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/folddnb">folddnb</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/fromtheannex">fromtheannex</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/futureclassdnb">futureclassdnb</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/futurist_dnb">futurist_dnb</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/gilferreira_dj">gilferreira_dj</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/goldenchildnyc">goldenchildnyc</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/grafixmusicUK">grafixmusicUK</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/guddah">guddah</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/helmahof">helmahof</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/iamdistinctdnb">iamdistinctdnb</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/jacob_welsh">jacob_welsh</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/jekalez">jekalez</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/johnbbeta">johnbbeta</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/juicedrumandbass">juicedrumandbass</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/justsamdj">justsamdj</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/kabiyo">kabiyo</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/kaya_dj">kaya_dj</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/kjsawka">kjsawka</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/konklave">konklave</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/kt_dj">kt_dj</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/larryplus">larryplus</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/lowkeydrums">lowkeydrums</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/lsideBR">lsideBR</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/maxmagee">maxmagee</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/metapattern">metapattern</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/mh3dnb">mh3dnb</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/mikeairstrike">mikeairstrike</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/missjackalope">missjackalope</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/miss_octopus_dnb">miss_octopus_dnb</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/mojaxxDJ">mojaxxDJ</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/mr_miasma_">mr_miasma_</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/mrfnrayner">mrfnrayner</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/mystery2k">mystery2k</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/ncseventeen">ncseventeen</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/nox_b_u">ncseventeen</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/pacificdnb">pacificdnb</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/pagan_dnb">pagan_dnb</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/peeceeuk">peeceeuk</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/properchicagodnb">properchicagodnb</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/psidreamDNB">psidreamDNB</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/rcatrash">rcatrash</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/reidspeedtv">reidspeedtv</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/respectdnb">respectdnb</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/schwindnb">schwindnb</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/shiftyjunglebum">shiftyjunglebum</a></p>
+								</section>								
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/slpdnb">slpdnb</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/sonictherapy">sonictherapy</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/sparkz_ny">sparkz_ny</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/specialtater">specialtater</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://www.twitch.tv/thedjtitan">specialtater</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/thugshells">thugshells</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/tmocs">tmocs</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/turntablefreedom">turntablefreedom</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/undergrounddance">undergrounddance</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/vinielsdnb">vinielsdnb</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/visionrecordings">visionrecordings</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/voicians_">voicians_</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/widdzy">widdzy</a></p>
+								</section>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/ytimid">ytimid</a></p>
+								</section>
 							</div>
 							<ul class="actions">
 								<li><a href="generic.html" class="button">Learn more</a></li>
