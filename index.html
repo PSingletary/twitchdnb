@@ -108,70 +108,40 @@
 							<h2>DnB Streamers</h2>
 							<p>Primarily sourced from <a href="https://www.dogsonacid.com/threads/twitch-drum-and-bass-streamers.814605/">dogsonacid.com</a></p>
 <!--
-						<script type="text/javascript">
-							var options = {
-							channel: "p5ingletary", // TODO: Change this to the streams username you want to embed
-							width: 640,
-							height: 360,
-							};
-							var player = new Twitch.Player("twitch", options);
+				<script type="text/javascript">
+					var options = {
+					channel: "p5ingletary", // TODO: Change this to the streams username you want to embed
+					width: 640,
+					height: 360,
+					};
+					var player = new Twitch.Player("twitch", options);
 
-							player.addEventListener(Twitch.Player.READY, initiate)
+					player.addEventListener(Twitch.Player.READY, initiate)
 
-							function initiate() {
-							player.addEventListener(Twitch.Player.ONLINE, handleOnline);
-							player.addEventListener(Twitch.Player.OFFLINE, handleOffline);
-							player.removeEventListener(Twitch.Player.READY, initiate);
-							}
+					function initiate() {
+					player.addEventListener(Twitch.Player.ONLINE, handleOnline);
+					player.addEventListener(Twitch.Player.OFFLINE, handleOffline);
+					player.removeEventListener(Twitch.Player.READY, initiate);
+					}
 
-							function handleOnline() {
-							document.getElementById("twitch").classList.remove('hide');
-							player.removeEventListener(Twitch.Player.ONLINE, handleOnline);
-							player.addEventListener(Twitch.Player.OFFLINE, handleOffline);
-							player.setMuted(false);
-							}
+					function handleOnline() {
+					document.getElementById("twitch").classList.remove('hide');
+					player.removeEventListener(Twitch.Player.ONLINE, handleOnline);
+					player.addEventListener(Twitch.Player.OFFLINE, handleOffline);
+					player.setMuted(false);
+					}
 
-							function handleOffline() {
-							document.getElementById("twitch").classList.add('hide');
-							player.removeEventListener(Twitch.Player.OFFLINE, handleOffline);
-							player.addEventListener(Twitch.Player.ONLINE, handleOnline);
-							player.setMuted(true);
-							}
-						</script>
+					function handleOffline() {
+					document.getElementById("twitch").classList.add('hide');
+					player.removeEventListener(Twitch.Player.OFFLINE, handleOffline);
+					player.addEventListener(Twitch.Player.ONLINE, handleOnline);
+					player.setMuted(true);
+					}
+				</script>
 -->
 							<div class="features">
-								<div class="content">
-									<section><span class="icon brands fa-twitch"></span>
-										<p><a href="https://twitch.tv/916junglist">916junglist</a></p>
-										<script type="text/javascript">
-										channel: "p916junglist", 
-										width: 640,
-										height: 360,
-										};
-										var player = new Twitch.Player("twitch", options);
-			
-										player.addEventListener(Twitch.Player.READY, initiate)
-			
-										function initiate() {
-										player.addEventListener(Twitch.Player.ONLINE, handleOnline);
-										player.addEventListener(Twitch.Player.OFFLINE, handleOffline);
-										player.removeEventListener(Twitch.Player.READY, initiate);
-										}
-			
-										function handleOnline() {
-										document.getElementById("twitch").classList.remove('hide');
-										player.removeEventListener(Twitch.Player.ONLINE, handleOnline);
-										player.addEventListener(Twitch.Player.OFFLINE, handleOffline);
-										player.setMuted(false);
-										}
-			
-										function handleOffline() {
-										document.getElementById("twitch").classList.add('hide');
-										player.removeEventListener(Twitch.Player.OFFLINE, handleOffline);
-										player.addEventListener(Twitch.Player.ONLINE, handleOnline);
-										player.setMuted(true);
-										}
-									</script>
+								<section><span class="icon brands fa-twitch"></span>
+									<p><a href="https://twitch.tv/916junglist">916junglist</a></p>
 								</section>
 								<section><span class="icon brands fa-twitch"></span>
 									<p><a href="https://twitch.tv/acidspacecat">acidspacecat</a></p>
