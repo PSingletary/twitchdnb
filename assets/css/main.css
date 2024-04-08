@@ -2340,8 +2340,8 @@ input, select, textarea {
 		input[type="tel"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #f0f0ff;
-			box-shadow: 0 0 0 1px #f0f0ff;
+			border-color: #ffffff;
+			box-shadow: 0 0 0 1px #ffffff;
 		}
 
 	select {
